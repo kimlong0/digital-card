@@ -20,7 +20,6 @@ export default function App() {
             <a className='contact-link' href='https://www.linkedin.com/in/kimlong-nguyen/' target="_blank">
               <button className='contact-button linkedin'><img src="./dist/assets/linkedin.svg"/>Linkedin</button>
             </a>
-            
           </div>
           <Description />
         </div>
