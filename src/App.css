@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #23252C;
+}
+
+.App {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 21px 36px;
+}
+
+.name {
+  margin-bottom: 6px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.speciality {
+  color: #F3BF99;
+  font-weight: 400;
+}
+
+.portfolio {
+  font-weight: 500;
+  color: #F5F5F5;
+  text-decoration: inherit;
+  margin: 9px 0px 15px 0px;
+  font-size: 10px;
+}
+.portfolio:hover {
+  color: #f8d5bc;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  color: white;
+}
+
+.contact-button > img {
+  margin-right: 8px;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.main-container {
+  background-color: #1A1B21;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 317px;
+}
+
+.description {
+  margin-top: 30px;
+}
+
+h2 {
+  margin: 5px 0;
+  line-height: 150%;
+}
+
+.content {
+  color: #DCDCDC;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.link-containers {
+  background: #161619;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  width: 100%;
+}
+
+.social-logo {
+  width: 25px;
+  height: 25px;
+  margin: 0 12px
+}
+
+.social-logo:hover {
+  filter: drop-shadow(0 0 0.5em #646cffaa);
+}
